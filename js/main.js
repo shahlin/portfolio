@@ -23,7 +23,7 @@ $(document).ready(function() {
 	});
 
 	// Fancybox
-	$('.work-box').fancybox();
+	$('.work-fancybox').fancybox();
 
 	
 	// Page Scroll
