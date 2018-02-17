@@ -23,6 +23,7 @@ $(document).ready(function() {
 	});
 
 	// Fancybox
+	// Changed from .work-box to .work-fancybox
 	$('.work-fancybox').fancybox();
 
 	

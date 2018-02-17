@@ -656,7 +656,7 @@ h2#projectsHeading {
 	color: #6b7278;
 }
 
-.project_feature_list li {
+.project_ul li {
     margin-left: 2%;
     margin-top: 3%;
     list-style-type: circle;
