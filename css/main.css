@@ -355,7 +355,7 @@ ul li {
 	height:100%;  
   }
   .work .overlay {
-    background: rgba(64, 35, 97, 0.9);
+    background: rgba(82, 84, 101, 0.9);
     height: 100%;
     left: 0;
     opacity: 0;
@@ -622,4 +622,42 @@ margin-top:50px;
     color: #5ed07b;
     font-size: 17px;
     font-weight: 700;
+}
+
+/* -------------- CUSTOM --------------- */
+h2#projectsHeading {
+	text-align: center;
+	padding-bottom: 25px;
+}
+
+.youtube_embed_vid {
+	width: 97%;
+}
+
+.youtube_embed_vid {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+ 
+.youtube_embed_vid iframe,
+.youtube_embed_vid object,
+.youtube_embed_vid embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.inner-description .project_p {
+	color: #6b7278;
+}
+
+.project_feature_list li {
+    margin-left: 2%;
+    margin-top: 3%;
+    list-style-type: circle;
 }
