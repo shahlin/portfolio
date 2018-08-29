@@ -5,67 +5,28 @@
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="">
   <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Designs</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/jquery.fancybox.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-    <link rel="stylesheet" href="../css/animate.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  
-    <!-- FAVICON -->
-      <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192" href="../images/favicon/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
-      <link rel="manifest" href="images/favicon/manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="../images/favicon/ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
+  <?php include_once '../templates/head.php'; ?>
 
-    <style>
-      .inner-description .project_screenshots img {
-        width: 90%;
-        height: 100%;
-        border-radius: 0;
-      }
-    </style>
-  </head>
+  <title>Designs</title>
+  
+  <style>
+    .inner-description .project_screenshots img {
+      width: 90%;
+      height: 100%;
+      border-radius: 0;
+    }
+  </style>
 
   <body>
     <!-- header section -->
     <section class="innerbanner" role="banner">
-      <header id="header"> 
-        <!-- navigation section  -->
-        <div class="header-content clearfix"> <a class="logo" href="../index.html"><img src="../images/logo.png" alt="Shahlin"></a>
-          <nav class="navigation" role="navigation">
-            <ul class="primary-nav">
-              <li><a href="../about.html">About Me</a></li>
-              <li><a href="../contact.html">Contact</a></li>
-            </ul>
-          </nav>
-          <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-        <!-- navigation section  --> 
-      </header>
+      <?php include_once '../templates/header.php'; ?>
       
       <!-- banner text -->
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
           <div class="innerbanner-text text-center">
-            <p>Designs / <span style="font-size: 18px;">photoshop</span></p>
+            <p>Designs / <span class="project_subtitle">photoshop</span></p>
             <!-- banner text --> 
           </div>
         </div>
@@ -178,34 +139,12 @@
     <!-- description text section --> 
 
     <!-- hire me section -->
-    <section id="hireme" class="section hireme">
-      <div class="container">
-        <div class="col-md-8 col-md-offset-2 text-center">
-          <h3>Like what you see? There's more! </h3>
-          <a href="../contact.html" class="btn btn-large">Get in touch</a></div>
-      </div>
-    </section>
-    <!-- hire me section --> 
-    <!-- footer -->
+    <?php include_once '../templates/hireme.php'; ?>
 
-    <footer class="section footer">
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="col-md-12">
-            <p>© 2018 All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer --> 
+    <!-- footer -->
+    <?php include_once '../templates/footer.php'; ?>
 
     <!-- JS FILES --> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-    <script src="../js/bootstrap.min.js"></script> 
-    <script src="../js/jquery.fancybox.pack.js"></script> 
-    <script src="../js/jquery.waypoints.min.js"></script> 
-    <script src="../js/retina.min.js"></script> 
-    <script src="../js/modernizr.js"></script> 
-    <script src="../js/main.js"></script>
+    <?php include_once '../templates/jsfiles.php'; ?>
   </body>
 </html>
