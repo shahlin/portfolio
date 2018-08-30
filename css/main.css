@@ -132,7 +132,12 @@ ul li {
 } */
 
 #header.fixed {
-	background-color: rgba(235, 235, 235, 0.93);
+	/* background-color: rgba(235, 235, 235, 0.93); */
+	background-color: #fffffffa;
+	background-image: linear-gradient(to right, #cacaca 33%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 25px 1px;
+    background-repeat: repeat-x;
 }
 
 #header.fixed .header-content {
