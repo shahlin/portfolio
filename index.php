@@ -47,6 +47,18 @@
 			<div class="container-fluid">
 				<div class="row no-gutter">
 					<div class="col-lg-3 col-md-6 col-sm-6 work">
+						<a href="projects/linite.php" class="work-box"> 
+							<img src="images/linite_cover.jpg" alt="Linite">
+							<div class="overlay">
+								<div class="overlay-caption">
+									<h5>Linite</h5>
+									<p>Desktop Application (Linux)</p>
+								</div>
+							</div>
+						</a> 
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6 work">
 						<a href="projects/arlkon.php" class="work-box"> 
 							<img src="images/arlkon_cover.jpg" alt="Arlkon">
 							<div class="overlay">
@@ -129,11 +141,11 @@
 							</div>
 						</a>
 					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6 work">
+					<!-- <div class="col-lg-3 col-md-6 col-sm-6 work">
 						<a href="#" class="work-box">
 							<img src="images/moreToCome_cover.jpg" alt="More to come">
 						</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</section>

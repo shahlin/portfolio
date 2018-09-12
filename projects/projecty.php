@@ -38,7 +38,7 @@
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
           <h3>About the project</h3>
-          <p class="project_p">I've had the idea of an activity sharing website since a very long time. Maybe that explains why I have two different projects with the same idea (<a href="dlindle.php">dlindle</a>). Project Y was developed back in 2015 just after finishing school. I wanted to create a platform which was easy to use but helpful and fun at the same time. Since I was not good at front-end, I downloaded a commercially free HTML5 page and started modifying that tot fit my needs. Unfortunately, Project Y's development was stopped halfway as university began. But I never gave up on my idea of an activity sharing website though. So I came up with dlindle, which was a fully functioning activity sharing website!</p>
+          <p class="project_p">I've had the idea of an activity sharing website since a very long time. Maybe that explains why I have two different projects with the same idea (<a href="dlindle.php" target="blank">dlindle</a>). Project Y was developed back in 2015 just after finishing school. I wanted to create a platform which was easy to use but helpful and fun at the same time. Since I was not good at front-end, I downloaded a commercially free HTML5 page and started modifying that tot fit my needs. Unfortunately, Project Y's development was stopped halfway as university began. But I never gave up on my idea of an activity sharing website though. So I came up with dlindle, which was a fully functioning activity sharing website!</p>
           
           <hr>
 
