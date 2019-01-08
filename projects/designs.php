@@ -40,13 +40,19 @@
           <p class="project_p">I have been doing Photoshop as a hobby since highschool and I still love making 2D art from scratch and editing images. Here are some of my favourite creations (click on the images to enlarge). </p>
           
           <hr>
-
-          <h3>Portraits</h3>
-
           <section class="section project_screenshots no-padding">
             <div class="container-fluid">
               <div class="row no-gutter">
+                <div class="col-md-3 work">
+                  <h3>Cards</h3>
 
+                  <a href="../images/designs/Cards.jpg" class="work-fancybox">
+                    <img src="../images/designs/Cards.jpg" alt="Cards">
+                  </a>
+                </div>
+                
+                <h3>Portraits</h3>
+              
                 <div class="col-md-3 work">
                   <a href="../images/designs/Portrait.jpg" class="work-fancybox">
                     <img src="../images/designs/Portrait.jpg" alt="Portrait">
