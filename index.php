@@ -22,7 +22,7 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="banner-text text-center">
 						<h1>Hey, I’m Shahlin</h1>
-						<p>I'm a developer. I mainly do backend for websites and design prototypes<br>
+						<p>I'm a software developer. I mainly do backend for websites and design prototypes<br>
 								Scroll down to see my work!</p>
 						<!-- banner text --> 
 					</div>
@@ -34,7 +34,7 @@
 		<section id="descripton" class="section descripton">
 			<div class="container">
 				<div class="col-md-10 col-md-offset-1 text-center">
-					<p>My experience? C++, Java/JavaFX, Git, Python (basic), MySQL, PHP (including Laravel), jQuery, etc. Web development is something I started back in high school and still continue learning. I'm also good with Photoshop. I create prototypes for mobile apps and websites. Apart from that, I love designing random objects from scratch (a room, for instance). I've gained alot of experience in different technologies over the years, x86 Assembly Language, video editing, app development, Raspberry Pi, and alot more!</p>
+					<p>My experience? Java/JavaFX, Python (including Flask, Django, Tkinter, PyQT and much more!), C++, Git, MySQL, PHP (including Laravel), jQuery, etc. Web development is something I started back in high school and still continue learning. I'm also good with Photoshop. I create prototypes for mobile apps and websites. Apart from that, I love designing random objects from scratch (a room, for instance). I've gained alot of experience in different technologies over the years, x86 Assembly Language, video editing, app development, software architecture, Raspberry Pi, and alot more!</p>
 				</div>
 			</div>
 		</section>
