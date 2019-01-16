@@ -37,8 +37,50 @@
     <section id="inner-description" class="section inner-description">
       <div class="container">
         <div class="col-md-10 col-md-offset-1">
-          <p class="project_p">Recently, I've decided to get into the world of prototyping and designing webpages or mobile app screens. Below are some of my creations (click on the images to enlarge). </p>
+          <p class="project_p">I make prototypes for mobile apps or websites as a hobby. Below are some of my creations (click on the images to enlarge). </p>
           
+          <br>
+
+          <h3>Shoppah, shoe shopping app</h3>
+          <h5>(Gesture heavy)</h5>
+
+          <section class="section project_screenshots no-padding"><br>
+            <div class="container-fluid">
+              <div class="row no-gutter">
+
+                <div class="col-md-2 work">
+                  <a href="../images/prototypes/Shoppah/Shoppah.jpg" class="work-fancybox">
+                    <img src="../images/prototypes/Shoppah/Shoppah.jpg" alt="Youtube stats page">
+                  </a>
+                </div>      
+
+              </div>
+            </div>
+          </section>
+
+          <hr>
+
+          <h3>Youtube Analytics</h3>
+
+          <section class="section project_screenshots no-padding"><br>
+            <div class="container-fluid">
+              <div class="row no-gutter">
+
+                <div class="col-md-2 work">
+                  <a href="../images/prototypes/YoutubeStats/YoutubeStatsNotch.jpg" class="work-fancybox">
+                    <img src="../images/prototypes/YoutubeStats/YoutubeStatsNotch.jpg" alt="Youtube stats page">
+                  </a>
+                </div>
+                
+                <div class="col-md-2 work">
+                  <a href="../images/prototypes/YoutubeStats/YoutubeStatsNoNotch.jpg" class="work-fancybox">
+                    <img src="../images/prototypes/YoutubeStats/YoutubeStatsNoNotch.jpg" alt="Youtube stats page">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <hr>
 
           <h3>Hail</h3>
