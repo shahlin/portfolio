@@ -680,3 +680,36 @@ h2#projectsHeading {
 .project_subtitle {
 	font-size: 23px;
 }
+
+/* SKILLBAR CSS */
+#left-skill-set {
+	width: 45%;
+	margin-right: 5%;
+	float: left;
+}
+
+#right-skill-set {
+	width: 45%;
+	margin-left: 5%;
+	float: right;
+}
+
+.skillbar {
+	margin: 25px 0;
+}
+
+.skillbar.java .title {
+	background-color: #33617e;
+}
+
+.skillbar.java .filled {
+	background-color: #5382a0;
+}
+
+.skillbar.flask .title {
+	background-color: rgb(34, 34, 34);
+}
+
+.skillbar.flask .filled {
+	background-color: #d3d3d3;
+}
