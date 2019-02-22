@@ -34,13 +34,13 @@
 			</div>
 		</section>
 		<!-- header section --> 
-		<!-- description text section -->
+		<!-- skill set section -->
 		<section id="descripton" class="section descripton">
 			<div class="container">
 				<!-- <div class="col-md-10 col-md-offset-1 text-center">
 					<p>My experience? Java/JavaFX, Python (including Flask, Django, Tkinter, PyQT and much more!), C++, Git, MySQL, PHP (including Laravel), jQuery, etc. Web development is something I started back in high school and still continue learning. I'm also good with Photoshop. I create prototypes for mobile apps and websites. Apart from that, I love designing random objects from scratch (a room, for instance). I've gained alot of experience in different technologies over the years, x86 Assembly Language, video editing, app development, software architecture, Raspberry Pi, and alot more!</p>
 				</div> -->
-				<h2>Programming Experience</h2><br>
+				<h2 style="text-align:center;">Programming Experience</h2><br>
 				<div id="left-skill-set">
 					<div class="skillbar python">
 						<div class="filled" data-width="90%"></div>
@@ -98,14 +98,48 @@
 					</div>
 
 					<div class="skillbar others">
-						<div class="filled" data-width="60%"></div>
+						<div class="filled" data-width="40%"></div>
 						<span class="title">Others</span>
-						<span class="percent">60%</span>
+						<span class="percent">40%</span>
 					</div>
 				</div>
 			</div>
 		</section>
-		<!-- description text section --> 
+		<!-- skill set section --> 
+		<hr>
+		<section id="work-experience" class="section work-experience">
+			<div class="container">
+				<h2 style="text-align:center;margin-bottom: 30px;">Work Experience</h2><br>
+				<div class="row">
+					<div class="col-md-6 work-entry-left">
+						<div class="work-entry">
+							<img src="images/assembly.jpg" alt="The Assembly Logo" class="work-entry-logo">
+							<h3 class="work-entry-title">The Assembly</h3>
+							<p class="work-entry-description">Developer Intern</p>
+						</div>
+						<div class="work-entry">
+							<img src="images/dso.jpg" alt="Dubai Silicon Oasis Logo" class="work-entry-logo">
+							<h3 class="work-entry-title">Dubai Silicon Oasis</h3>
+							<p class="work-entry-description">Prototype Developer</p>
+						</div>
+					</div>
+					
+					<div class="col-md-6 work-entry-right">
+						<div class="work-entry">
+							<img src="images/gitex.jpg" alt="GITEX Logo" class="work-entry-logo">
+							<h3 class="work-entry-title">GITEX</h3>
+							<br><p class="work-entry-description">Product Exhibitor</p>
+							<div class="clear"></div>
+						</div>
+						<div class="work-entry">
+							<img src="images/uowd.jpg" alt="University of Wollongong in Dubai Logo" class="work-entry-logo">
+							<h3 class="work-entry-title">UOWD</h3>
+							<br><p class="work-entry-description">Programming Lab Assistant</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
 		<h2 id="projectsHeading">My Projects</h2>
 
@@ -113,16 +147,18 @@
 		<section class="section no-padding">
 			<div class="container-fluid">
 				<div class="row no-gutter">
-					<div class="col-lg-3 col-md-6 col-sm-6 work">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="work">
 						<a href="projects/linite.php" class="work-box"> 
-							<img src="images/linite_cover.jpg" alt="Linite">
+							<img src="images/linite_cover.jpg" alt="Linite">							
 							<div class="overlay">
 								<div class="overlay-caption">
 									<h5>Linite</h5>
 									<p>Desktop Application (Linux)</p>
 								</div>
 							</div>
-						</a> 
+						</a>
+						</div>
 					</div>
 
 					<div class="col-lg-3 col-md-6 col-sm-6 work">
@@ -208,11 +244,6 @@
 							</div>
 						</a>
 					</div>
-					<!-- <div class="col-lg-3		$('.skillbar').skillbar();col-md-6 col-sm-6 work">
-						<a href="#" class="wo			});k-box">
-							<img src="images/moreToCome_cover.jpg" alt="More to come">
-						</a>
-					</div> -->
 				</div>
 			</div>
 		</section>

@@ -713,3 +713,62 @@ h2#projectsHeading {
 .skillbar.flask .filled {
 	background-color: #d3d3d3;
 }
+
+/* WORK EXPERIENCE */
+.work-entry {
+	margin-bottom: 10%;
+}
+
+.work-entry-left .work-entry-logo {
+	border-radius: 50%;
+	width: 15%;
+	float: left;
+}
+
+.work-entry-left .work-entry-title {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.work-entry-left .work-entry-description {
+	font-size: 24px;
+	line-height: 1.3em;
+	position: relative;
+	left: 40px;
+}
+
+.work-entry-right .work-entry-logo {
+	border-radius: 50%;
+	width: 15%;
+	float: right;
+}
+
+.work-entry-right .work-entry-title {
+	float: right;
+	margin-right: 40px;
+}
+
+.work-entry-right .work-entry-description {
+	font-size: 24px;
+	line-height: 1.3em;
+    margin-left: 0;
+    position: relative;
+    top: 45px;
+    left: 98px;
+	text-align: right;
+}
+
+.clear {
+	clear: both;
+}
+
+#contact-links {
+	position: relative;
+	left: 28%;
+}
+
+#contact-links li{
+	float: left;
+	margin-left:50px;
+	cursor: pointer;
+}

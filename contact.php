@@ -21,6 +21,12 @@
         <div class="col-md-10 col-md-offset-1">
           <div class="innerbanner-text text-center">
             <p>Contact</p>
+            
+            <ul id="contact-links">
+              <li><a href="https://www.linkedin.com/in/shahlin/" target="_new">LinkedIn</a></li>
+              <li><a href="https://github.com/shahlin" target="_new">GitHub</a></li>
+              <li><a href="https://stackoverflow.com/users/2736770/shahlin-ibrahim" target="_new">StackOverflow</a></li>
+            </ul>
             <!-- banner text --> 
           </div>
         </div>
