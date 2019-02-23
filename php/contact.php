@@ -36,6 +36,12 @@ if(get_magic_quotes_gpc()) {
 //$address = "example@example.net";
 $address = "shahlin44@gmail.com";
 
+// Blacklisted names
+$blacklist = array("miguelham");
+
+if(in_array(strtolower($name), $blacklist)){
+	exit();
+}
 
 // Configuration option.
 // i.e. The standard subject will appear as, "You've been contacted by John Doe."
