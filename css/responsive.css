@@ -135,6 +135,10 @@
         font-size: 1em;
       }
 
+  .innerbanner-text p {
+    line-height: 50px;
+  }
+
   #right-skill-set {
     width: 100%;
     margin:0;
@@ -206,7 +210,11 @@
     font-size: 26px; }
     .banner-text p {
       font-size: 1em;
-    }  
+    }
+    
+  .innerbanner-text p {
+    line-height: 50px;
+  }
 
   #right-skill-set {
     width: 100%;

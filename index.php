@@ -147,6 +147,18 @@
 		<section class="section no-padding">
 			<div class="container-fluid">
 				<div class="row no-gutter">
+					<div class="col-lg-3 col-md-6 col-sm-6 work">
+						<a href="projects/wa_autoresponder.php" class="work-box"> 
+							<img src="images/wa_autoresponder_cover.jpg" alt="">
+							<div class="overlay">
+								<div class="overlay-caption">
+									<h5>Whatsapp Web Autoresponder</h5>
+									<p>Desktop Application</p>
+								</div>
+							</div>
+						</a> 
+					</div>
+					
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="work">
 						<a href="projects/linite.php" class="work-box"> 
