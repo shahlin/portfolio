@@ -43,21 +43,21 @@
 				<h2 style="text-align:center;">Programming Experience</h2><br>
 				<div id="left-skill-set">
 					<div class="skillbar python">
-						<div class="filled" data-width="90%"></div>
+						<div class="filled" data-width="85%"></div>
 						<span class="title">Python</span>
-						<span class="percent">90%</span>
+						<span class="percent">85%</span>
 					</div>
 
 					<div class="skillbar java">
-						<div class="filled" data-width="90%"></div>
+						<div class="filled" data-width="85%"></div>
 						<span class="title">Java</span>
-						<span class="percent">90%</span>
+						<span class="percent">85%</span>
 					</div>
 
 					<div class="skillbar php">
-						<div class="filled" data-width="85%"></div>
+						<div class="filled" data-width="80%"></div>
 						<span class="title">PHP</span>
-						<span class="percent">85%</span>
+						<span class="percent">80%</span>
 					</div>
 
 					<div class="skillbar css">
@@ -74,9 +74,9 @@
 				</div>
 				<div id="right-skill-set">
 					<div class="skillbar flask">
-						<div class="filled" data-width="90%"></div>
+						<div class="filled" data-width="85%"></div>
 						<span class="title">Flask</span>
-						<span class="percent">90%</span>
+						<span class="percent">85%</span>
 					</div>
 
 					<div class="skillbar django">

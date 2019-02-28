@@ -37,7 +37,7 @@
     <section id="inner-description" class="section inner-description">
       <div class="container">
         <div class="col-md-10 col-md-offset-1 text-center">
-          <p>I am honest, discreet and always focused on completing my tasks. If you are looking for an intern, just leave me a message and I'll contact you soon.</p>
+          <p>I am honest, discreet and always focused on completing my tasks. If you are looking for a software developer, just leave me a message and I'll contact you soon.</p>
           <!--contact form start-->
           <div class="col-md-6 col-md-offset-3 conForm">
             <div id="message"></div>
