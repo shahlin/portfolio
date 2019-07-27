@@ -9,7 +9,7 @@
   <?php include_once 'templates/head.php'; ?>
   
   <title>Contact</title>
-
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <body>
     <!-- header section -->
     <section class="innerbanner" role="banner">
@@ -42,10 +42,11 @@
           <div class="col-md-6 col-md-offset-3 conForm">
             <div id="message"></div>
             <form method="post" action="php/contact.php" name="cform" id="cform">
-              <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
-              <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
-              <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Message..."></textarea>
-              <input type="submit" id="submit" name="send" class="submitBnt" value="Send">
+              <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." required>
+              <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." required>
+              <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Message..." required></textarea>
+              <div class="g-recaptcha" data-callback="recaptchaCheckedCallback" data-sitekey="6LfX0q8UAAAAABR8AMOzW0gm2qro4I9HqPmZOkGX" id="google-recaptcha"></div><br>
+              <input type="submit" id="submit" name="send" class="submitBtn" value="Send" disabled>
               <div id="simple-msg"></div>
             </form>
           </div>
@@ -60,4 +61,14 @@
     <!-- JS FILES --> 
     <?php include_once 'templates/jsfiles.php'; ?>
   </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#submit').css('background-color', '#a2a2a2'); 
+    });
+
+    function recaptchaCheckedCallback() {
+      $('#submit').removeAttr('disabled');
+      $('#submit').css('background-color', '#3bc492'); 
+    };
+  </script>
 </html>

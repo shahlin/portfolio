@@ -609,11 +609,9 @@ ul li {
 	border:#f4f3f3 1px solid;
 }
 
-
-.conForm .submitBnt {
+.conForm .submitBtn {
 	background:#3bc492;
 	color: #fff;
-		padding: 15px 40px;
 	font-size: 18px;
 	font-weight: 600;
 	letter-spacing: 5px;
@@ -623,6 +621,10 @@ ul li {
 	border-radius: 2px;
 	display: inline-block;
 	text-transform: uppercase;
+	position: relative;
+    left: 37%;
+	height: 76px;
+	width: 29%;
 }
 .conForm .submitBnt:hover {
 	background:#3d3d3d;
